@@ -1,0 +1,30 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-controllers": "^0.1.6",
+    "md5": "^2.2.1",
+    "moment": "^2.23.0",
+    "mysql2": "^1.6.4",
+    "reflect-metadata": "^0.1.12",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.1",
+    "@types/md5": "^2.1.33",
+    "@types/sequelize": "^4.27.33",
+    "sequelize-cli": "^5.4.0",
+    "typescript": "^3.2.2"
+  }
+}
